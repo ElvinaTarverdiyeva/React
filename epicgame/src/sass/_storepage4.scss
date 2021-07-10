@@ -1,0 +1,46 @@
+.storePage4{
+    width: 100%;
+    height: 600px;
+   
+    color: white;
+    h4{
+        margin: 20px 0px;
+    }
+.div5row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+   
+    .div5{
+        width: 300px;
+        height: 100%;
+     
+        margin-right: 10px;
+        img{
+            width: 100%;
+            &:hover{
+                filter: brightness(110%);
+            }
+        }
+        p{
+            color: rgb(158, 158, 158);
+            margin-bottom: 20px;
+        }
+        h6,p{
+            font-size: 15px;
+            margin-left: 5px;
+        }
+        h6{
+            margin-top: 20px;
+        }
+        button{
+            width: 60px;
+            margin-left: 5px;
+        }
+        del{
+            margin: 0px 20px;
+        }
+    }
+}
+}

@@ -1,0 +1,73 @@
+.helppage1{
+    background-color: #484848;
+    width: 100%;
+    height: 350px;
+    padding: 50px;
+    color: white;
+    h1{
+        font-size: 45px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    a{
+        text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+        color: white;
+    }
+    }
+    h6{
+        margin-top: 25px;
+        font-size: 13px;
+        color: white;
+    }
+    .serachdiv{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        border: 1px solid black;
+        background-color: white;
+        height: 50px;
+        outline: outset;
+        i{
+            width: 2%;
+            color: black;
+            margin: 15px;
+        }
+        input{
+            width: 98%;
+            border: none;
+            outline: none;
+        }
+    }
+}
+.helppage2{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    h2{
+        padding-top: 70px;
+    }
+    .div9{
+        border-top: 1px solid rgba(128, 128, 128, 0.589);
+        padding-top: 10px;
+        margin-top: 20px;
+        height: 150px;
+       
+    i{
+        color: #cce3fa;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+        p{
+            color: blue;
+        }
+        &:hover{
+            text-decoration: underline;
+           
+        }
+    }
+}
+}
