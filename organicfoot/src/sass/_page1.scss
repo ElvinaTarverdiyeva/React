@@ -1,0 +1,88 @@
+.page1{
+    width: 100%;
+    height: 800px;
+    background-color: #f4f7f2;
+    h1{
+        font-size: 90px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        margin-left: 17%;
+        padding-top: 10%;
+    }
+    h2{
+    font-size: 95px;
+    font-family: Jost;
+    position: absolute;
+    color: #46b04a;
+    top: 32%;
+    left: 34.2%;
+    }
+    p{
+        width: 450px;
+        font-size: 20px;
+        color: #505150;
+        margin-left: 17%;
+        margin-top: 1%;
+    }
+    button{
+        margin-left: 17%;
+        margin-top: 2%;
+        border: 1px solid #505150;
+        background-color: transparent;
+        width: 210px;
+        height: 60px;
+        color: #505150;
+        font-size: 20px;
+        &:hover{
+            transition: 0.5s;
+            background-color: #46b04a;
+            color: white;
+            border: none;
+        }
+    }
+    .daire{
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        background-color:  #dcebdb;
+        position: absolute;
+        z-index: 1;
+        top: 20%;
+        left: 50%;
+
+    }
+    .daire2{
+        width: 550px;
+        height: 550px;
+        border-radius: 50%;
+        border: 1px dashed #46b04a;
+        z-index: 2;
+        position: absolute;
+        top: 18%;
+        left: 53%;
+
+    }
+    
+    .img1{
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        z-index: 3;
+        top: 21%;
+        left: 51.5%;
+    }
+    .img2{
+        width: 140px;
+        position: absolute;
+        left: 48%;
+        top: 59.5%;
+        z-index: 4;
+    }
+    .img3{
+        width: 140px;
+        position: absolute;
+        left: 76.8%;
+        top: 33%;
+        z-index: 2;
+    }
+}
